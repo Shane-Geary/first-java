@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         String pupName = "Gracie";
@@ -6,10 +8,12 @@ public class App {
         boolean pupIsGoof = true;
         char pupFirstInitial = pupName.charAt(0);
 
-        System.out.println(pupName);
-        System.out.println(pupFirstInitial);
-        System.out.println(pupAge);
-        System.out.println(pupFluff);
-        System.out.println(pupIsGoof);
+        System.out.println("Pup's Name- " + pupName);
+        System.out.println("Pup's Initial- " + pupFirstInitial);
+        System.out.println("Pup's Age- " + pupAge);
+        System.out.println("Pup's Fluff- " + pupFluff);
+        System.out.println("Pup is Goof?- " + pupIsGoof);
+
+        Scanner input = new Scanner(System.in);
     }
 }
