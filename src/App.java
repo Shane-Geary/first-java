@@ -15,5 +15,6 @@ public class App {
         System.out.println("Pup is Goof?- " + pupIsGoof);
 
         Scanner input = new Scanner(System.in);
+        pupFluff = input.nextDouble();
     }
 }
