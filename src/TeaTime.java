@@ -7,8 +7,10 @@ public class TeaTime {
         System.out.println("Type in a word and press enter to start developer tea time:");
 
         Scanner input = new Scanner(System.in);
+        input.next();
+        System.out.println("It's Developer Tea Time!!");
     }
     public static void main(String[] args) {
-
+        announceDeveloperTeatime();
     }
 }
